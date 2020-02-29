@@ -1,0 +1,278 @@
+.wrapper{
+    position: relative;
+    margin: auto;
+}
+
+.outer4{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: red;
+}
+    
+
+.outer3{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    margin-top: -377px;
+    margin-left: 25px;
+}
+
+.outer2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: red;
+    z-index: 2;
+    position: relative;
+    margin-top: -325px;
+    margin-left: 50px;
+}
+
+.outer1{
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    background-color:royalblue;
+    z-index: 3;
+    position: relative;
+    margin-top: -270px;
+    margin-left: 80px;
+}
+
+.star{
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: white;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid white;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+    margin-top: -160px;
+    margin-left: 105px;
+    z-index: 4;
+  }
+  .star:before {
+    border-bottom: 80px solid white;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+    z-index: 4;
+  }
+  .star:after {
+    position: absolute;
+    display: block;
+    color: white;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid white;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+    z-index: 4;
+  }
+
+  .deadpool1{
+     height: 250px;
+     width: 250px;
+     border-radius: 50%;
+     border: solid 10px black;
+     background-color: red; 
+     margin-left: 450px;
+  }
+
+  .deadpool2{
+      height: 195px;
+      width: 95px;
+      border-radius: 0 90px 90px 0;
+      background-color: black;
+      margin-left: 600px;
+      margin-top: -233px;
+      z-index: 1;
+  }
+
+  .deadpool3{
+    height: 195px;
+    width: 95px;
+    border-radius: 90px 0 0 90px;
+    background-color: black;
+    margin-left: 475px;
+    margin-top: -195px;
+    z-index: 1;
+}
+
+.deadpoolRightEye{
+    height: 25px;
+    width: 75px;
+    border-radius: 0 0 90px 90px;
+    background-color: white;
+    margin-left: 615px;
+    margin-top: -115px;
+    z-index: 2;
+    transform: rotate(320deg);
+
+}
+
+.deadpoolLeftEye{
+    height: 25px;
+    width: 75px;
+    border-radius: 0 0 90px 90px;
+    background-color: white;
+    margin-left: 480px;
+    margin-top: -21px;
+    z-index: 2;
+    transform: rotate(35deg);
+}
+
+.avengersLogo1{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: solid 12px purple;
+    border-radius: 50%;
+}
+
+
+  .avengersLogo2{
+      height: 295px;
+      width: 25px;
+      background-color: purple;
+      margin-top: -245px;
+      margin-left: 65px;
+      transform: rotate(25deg);
+  }
+
+  .avengersLogo3{
+      height: 205px;
+      width: 25px;
+      background-color: purple;
+      margin-top: -292px ;
+      margin-left: 127px;
+  }
+
+  .avengersLogo4{
+    height: 75px;
+    width: 25px;
+    background-color: purple;
+    margin-top: -85px;
+    margin-left: 95px;
+    transform: rotate(90deg);
+  }
+
+  .avengersLogo5{
+      height: 75px;
+      width: 10px;
+      background-color:white;
+      margin-top: -64px;
+      margin-left: 145px;
+      transform: rotate(45deg);
+
+  }
+
+  .avengersLogo6{
+    height: 55px;
+    width: 10px;
+    background-color:white;
+    margin-top: -95px;
+    margin-left: 138px;
+    transform: rotate(315deg);
+
+  }
+
+  .avengersLogo7{
+      height:200px;
+      width:75px;
+      background-color: white;
+      margin-top: 13px;
+      margin-left: 25px;
+      transform: rotate(90deg);
+  }
+
+  .avengersLogo8{
+    height:125px;
+    width:10px;
+    background-color: white;
+    margin-top: -200px;
+    margin-left: 46px;
+    transform: rotate(25deg);
+
+  }
+
+  .avengersLogo9{
+    height:125px;
+    width:10px;
+    background-color: white;
+    margin-top: -203px;
+    margin-left: 45px;
+    transform: rotate(25deg);
+  }
+
+  .x-menBase1{
+      height: 285px;
+      width: 285px;
+      border-radius: 50%;
+      background-color:rgb(3, 3, 48);
+      margin-top: -640px;
+      margin-left: 475px;
+  }
+
+  .x-menBase2{
+
+    height: 255px;
+    width: 255px;
+    border-radius: 50%;
+    background-color:darkred;
+    margin-top: -270px;
+    margin-left: 490px;
+    z-index: 1;
+
+  }
+
+  .x-menBase3{
+
+    height: 215px;
+    width: 215px;
+    border-radius: 50%;
+    background-color:yellow;
+    margin-top: -235px;
+    margin-left: 510px;
+    z-index: 2;
+
+  }
+
+  .x-menX1{
+    height: 235px;
+    width: 25px;
+    background-color: darkred;
+    margin-top: -225px;
+    margin-left: 605px;
+    z-index: 3;
+    transform: rotate(45deg);   
+  }
+
+  .x-menX2{
+    height: 235px;
+    width: 25px;
+    background-color: darkred;
+    margin-top: -255px;
+    margin-left: 605px;
+    z-index: 3;
+    transform: rotate(315deg);
+  }
